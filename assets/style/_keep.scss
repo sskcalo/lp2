@@ -1,0 +1,92 @@
+.keep {
+    background-image: url("../images/keep/keep_sp.jpg");
+    background-size: cover;
+    padding-top: calc(100vw/390*53);
+    padding-bottom: calc(100vw/390*311);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    @media (min-width: 768px) {
+        background-image: url("../images/keep/keep_pc.jpg");
+        background-position: center;
+        padding-top: calc(100vw/1500*132);
+        padding-bottom: calc(100vw/1500*120);
+    }
+}
+
+.keep__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: 768px) {
+        align-items: flex-start;
+        width: 35%;
+        margin-left: calc(100vw/1500*679);
+
+    }
+}
+
+.keep__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: 768px) {
+        align-items: flex-start;
+    }
+
+    h2 {
+        margin: 0;
+        font-family: 'EB Garamond', sans-serif;
+        font-size: min(rem(30), calc(100vw/390*30));
+        font-weight: 700;
+        line-height: 1;
+        color: $white;
+
+        @media (min-width: 768px) {
+            font-size: min(rem(38), calc(100vw/1500*38));
+        }
+    }
+
+    h3 {
+        margin: rem(18) 0 0;
+        font-size: min(rem(24), calc(100vw/390*24));
+        font-weight: 600;
+        line-height: 1;
+        color: $white;
+
+        @media (min-width: 768px) {
+            font-size: min(rem(24), calc(100vw/1500*24));
+        }
+    }
+}
+
+.keep__text {
+    margin-top: rem(20);
+
+    @media (min-width: 768px) {
+        margin-top: rem(25);
+    }
+
+    p {
+        margin: 0;
+        font-size: min(rem(14), calc(100vw/390*14));
+        font-weight: 400;
+        line-height: calc(32/14);
+        color: $white;
+        text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+
+        @media (min-width: 768px) {
+            font-size: min(rem(14), calc(100vw/1500*14));
+        }
+    }
+}
+
+.btn-a {
+    a {
+        display: inline-block;
+        background-color: $green;
+        width: 50px;
+    }
+}
