@@ -492,7 +492,7 @@ img {
 
 @media (min-width: 768px) {
   .slider__wrap--6 .slider__container {
-    margin-left: min(1.5rem, 1.6vw);
+    margin-left: min(1.3125rem, 1.4vw);
   }
 }
 
@@ -651,7 +651,7 @@ img {
 @media (min-width: 768px) {
   .next-arrow {
     top: 39.3%;
-    right: min(-7.4%, -3.125rem);
+    right: min(-7.4%, -4.375rem);
   }
 }
 .next-arrow i {
@@ -757,6 +757,7 @@ img {
   font-size: 1rem;
   font-weight: 500;
   line-height: 1;
+  color: #444;
 }
 @media (min-width: 768px) {
   .accordion__header .header__mark span {
@@ -778,6 +779,7 @@ img {
   font-weight: 500;
   line-height: 1.8666666667;
   letter-spacing: 0;
+  color: #444;
 }
 .accordion__header .header__caret {
   display: flex;

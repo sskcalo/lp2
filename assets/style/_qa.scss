@@ -96,6 +96,7 @@
             font-size: rem(16);
             font-weight: 500;
             line-height: 1;
+            color: #444;
 
             @media (min-width: 768px) {
                 font-size: rem(18);
@@ -117,6 +118,8 @@
             font-weight: 500;
             line-height: calc(28/15);
             letter-spacing: 0;
+            color: #444;
+
         }
     }
 

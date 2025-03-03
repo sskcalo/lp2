@@ -124,7 +124,7 @@
 .slider__wrap--6 {
     .slider__container {
         @media (min-width: 768px) {
-            margin-left: min(rem(24), calc(100vw/1500*24));
+            margin-left: min(rem(21), calc(100vw/1500*21));
         }
     }
 }
@@ -301,7 +301,7 @@
 
     @media (min-width: 768px) {
         top: 39.3%;
-        right: min(-7.4%, rem(-50));
+        right: min(-7.4%, rem(-70));
     }
 
     i {
