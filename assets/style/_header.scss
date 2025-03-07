@@ -1,0 +1,100 @@
+.header__wrap {
+    background-image: url("/assets/images/mainVisual/mainVisual_sp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: calc(100vw/390*17);
+    padding-bottom: calc(100vw/390*388);
+    margin-bottom: calc(100vw/390*156);
+    font-weight: 400;
+    position: relative;
+
+    @media (min-width: 768px) {
+        background-image: url("/assets/images/mainVisual/mainVisual_pc.jpg");
+        padding-top: calc(100vw/1500*23);
+        padding-bottom: calc(100vw/1500*645);
+        margin-bottom: 0;
+    }
+
+}
+
+.header__logo-box {
+    margin-left: calc(100vw/390*5);
+    display: flex;
+    justify-content: center;
+
+    @media (min-width: 768px) {
+        margin-left: calc(100vw/1500*6);
+    }
+
+    .header__logo {
+        font-family: 'Marcellus', sans-serif;
+        font-size: calc(100vw/390*24);
+        font-weight: 400;
+        letter-spacing: calc(100vw/390*4.8);
+
+        @media (min-width: 768px) {
+            font-size: calc(100vw/1500*28);
+            font-weight: 400;
+            letter-spacing: 5.6px;
+        }
+
+    }
+}
+
+.header__text-box {
+    position: absolute;
+    top: calc(100vw/390*393);
+    left: calc(100vw/390*23);
+
+    @media (min-width: 768px) {
+        top: calc(100vw/1500*235);
+        left: calc(100vw/1500*223);
+    }
+}
+
+.header__item-name {
+
+
+
+    span {
+        line-height: 0;
+    }
+
+    h1 {
+        font-family: 'Marcellus', sans-serif;
+        font-size: calc(100vw/390*41);
+        font-weight: 400;
+        line-height: 2.48;
+        letter-spacing: 12.3px;
+        display: flex;
+    flex-direction: column;
+    margin: 0;
+
+        @media (min-width: 768px) {
+            font-size: calc(100vw/1500*50);
+            line-height: 2.72;
+            letter-spacing: 15px;
+        }
+    }
+}
+
+
+.header__text {
+    font-size: calc(100vw/390*20);
+    font-weight: 400;
+    line-height: 1;
+    display: inline-block;
+    margin-top: calc(100vw/390*37);
+    letter-spacing: 6px;
+
+    @media (max-width: 358px) {
+        letter-spacing: calc(100vw/390*6);
+    }
+
+    @media (min-width: 768px) {
+        font-size: calc(100vw/1500*25);
+        font-weight: 400;
+        letter-spacing: 7.5px;
+        margin-top: calc(100vw/1500*47);
+    }
+}
