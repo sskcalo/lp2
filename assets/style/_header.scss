@@ -53,9 +53,6 @@
 }
 
 .header__item-name {
-
-
-
     span {
         line-height: 0;
     }
@@ -67,8 +64,8 @@
         line-height: 2.48;
         letter-spacing: 12.3px;
         display: flex;
-    flex-direction: column;
-    margin: 0;
+        flex-direction: column;
+        margin: 0;
 
         @media (min-width: 768px) {
             font-size: calc(100vw/1500*50);
