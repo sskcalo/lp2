@@ -31,6 +31,7 @@
         font-size: calc(100vw/390*24);
         font-weight: 400;
         letter-spacing: calc(100vw/390*4.8);
+        margin: 0;
 
         @media (min-width: 768px) {
             font-size: calc(100vw/1500*28);
@@ -57,7 +58,7 @@
         line-height: 0;
     }
 
-    h1 {
+    h2 {
         font-family: 'Marcellus', sans-serif;
         font-size: calc(100vw/390*41);
         font-weight: 400;
